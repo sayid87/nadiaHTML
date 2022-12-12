@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Registrasi | Perguruan Ngkong Sayid</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <table border="0" align="center" width="980" cellpadding="10" >
+            <tr>
+                <td colspan="2">
+                    <img src="img/banner.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td width="100" valign="top">
+                    <a href="index.html">Beranda</a><br>
+                    <a href="keahlian.html">Keahlian</a><br>
+                    <a href="gallery.html">Galeri</a><br>
+                    <a href="register.html">Registrasi</a>
+                </td>
+                <td>
+                   <form>
+                       <fieldset>
+                           <legend>Form Registrasi Perguruan Ngkong Sayid</legend>
+                           <table border="0">
+                               <tr>
+                                   <th align="left">Nama Lengkap</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="text" name="txt_nama">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Password</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="password" name="txt_pass">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Tanggal Lahir</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="date" name="txt_tanggal">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Warna Laptop</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="color" name="txt_warna">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Jenis Kelamin</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="radio" name="rdo_kelamin" value="Pria"> Pria
+                                       <input type="radio" name="rdo_kelamin" value="Wanita"> Wanita
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Materi yang ingin dipelajari</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="checkbox" name="chk_hobi[]" value="FE"> Front End
+                                       <input type="checkbox" name="chk_hobi[]" value="BE"> Backend
+                                       <input type="checkbox" name="chk_hobi[]" value="Mobile"> Mobile
+                                       <input type="checkbox" name="chk_hobi[]" value="IoT"> IoT
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left" valign="top">Alamat</th>
+                                   <th valign="top">:</th>
+                                   <td>
+                                       <textarea name="txt_alamat" cols="20" rows="5"></textarea>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Jenis Kelas</th>
+                                   <th>:</th>
+                                   <td>
+                                       <select name="cbo_jenis">
+                                           <option value="">-Pilih-</option>
+                                           <option value="Reguler">Reguler</option>
+                                           <option value="Privat">Privat</option>
+                                       </select>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <th align="left">Foto Anda</th>
+                                   <th>:</th>
+                                   <td>
+                                       <input type="file" name="file_foto">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td></td>
+                                   <td></td>
+                                   <td align="left">
+                                       <button type="submit">Daftar</button>
+                                       <button type="Reset">Batal</button>
+                                   </td>
+                               </tr>
+                           </table>
+                       </fieldset>
+                   </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><strong>Copyright Ryan Pratama 2021</strong></td>
+            </tr>
+        </table>
+    </body>
+</html>
